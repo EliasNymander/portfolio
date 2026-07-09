@@ -5,7 +5,6 @@ import FadeIn from './FadeIn.jsx'
 import CollapsibleRow from './CollapsibleRow.jsx'
 import { ChevronDownIcon, ExternalLinkIcon } from './icons.jsx'
 
-// TODO: place the actual thesis PDF at public/thesis-bsc.pdf for this link to resolve.
 const BSC_THESIS_PDF_URL = '/thesis-bsc.pdf'
 
 function ThesisBox({ label, title, summary, abstractParagraphs, pdfUrl, t }) {
