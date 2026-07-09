@@ -47,3 +47,11 @@ export function ExternalLinkIcon(props) {
     </svg>
   )
 }
+
+export function ChevronDownIcon(props) {
+  return (
+    <svg {...base} aria-hidden="true" {...props}>
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+  )
+}

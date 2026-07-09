@@ -17,8 +17,7 @@ export const translations = {
     },
     hero: {
       name: 'Elias Nymander',
-      tagline:
-        'Information Systems MSc — turning business problems into AI and automation solutions',
+      tagline: 'Bachelor of Economics — Delivery Coordinator',
       viewProjects: 'View projects',
       getInTouch: 'Get in touch',
     },
@@ -35,6 +34,7 @@ export const translations = {
       heading: 'Projects',
       viewOnGithub: 'View on GitHub',
       placeholderBadge: 'Placeholder',
+      emptyMessage: 'Projects are being lined up — check back soon.',
     },
     experience: {
       heading: 'Experience',
@@ -42,10 +42,14 @@ export const translations = {
     },
     education: {
       heading: 'Education',
-      thesisLabel: 'MSc thesis',
-      thesisTitle: 'AI demand forecasting in supply chain management',
-      thesisSummary:
+      viewProgram: 'View program page',
+      mscThesisLabel: 'MSc thesis',
+      mscThesisTitle: 'AI demand forecasting in supply chain management',
+      mscThesisSummary:
         'TODO: add a 2-3 sentence summary of the thesis scope, method, and key findings once available.',
+      bscThesisLabel: 'BSc thesis',
+      bscThesisTitle: 'TODO: add bachelor’s thesis title',
+      bscThesisSummary: 'TODO: add thesis summary once the thesis and its attachment are ready.',
       courseworkLabel: 'Coursework highlights',
     },
     skills: {
@@ -71,8 +75,7 @@ export const translations = {
     },
     hero: {
       name: 'Elias Nymander',
-      tagline:
-        'Tietojärjestelmätieteen maisteri — muutan liiketoiminnan ongelmat tekoäly- ja automaatioratkaisuiksi',
+      tagline: 'Kauppatieteiden kandidaatti — Delivery Coordinator Trainee',
       viewProjects: 'Katso projektit',
       getInTouch: 'Ota yhteyttä',
     },
@@ -89,6 +92,7 @@ export const translations = {
       heading: 'Projektit',
       viewOnGithub: 'Katso GitHubissa',
       placeholderBadge: 'Paikanpitäjä',
+      emptyMessage: 'Projekteja kootaan parhaillaan — käy pian uudelleen.',
     },
     experience: {
       heading: 'Kokemus',
@@ -96,10 +100,14 @@ export const translations = {
     },
     education: {
       heading: 'Koulutus',
-      thesisLabel: 'Pro gradu -tutkielma',
-      thesisTitle: 'Tekoälypohjainen kysynnän ennustaminen toimitusketjun hallinnassa',
-      thesisSummary:
+      viewProgram: 'Katso koulutusohjelma',
+      mscThesisLabel: 'Pro gradu -tutkielma',
+      mscThesisTitle: 'Tekoälypohjainen kysynnän ennustaminen toimitusketjun hallinnassa',
+      mscThesisSummary:
         'TODO: lisää 2-3 lauseen yhteenveto tutkielman laajuudesta, menetelmästä ja keskeisistä tuloksista, kun ne ovat valmiit.',
+      bscThesisLabel: 'Kandidaatintutkielma',
+      bscThesisTitle: 'TODO: lisää kandidaatintutkielman otsikko',
+      bscThesisSummary: 'TODO: lisää tutkielman kuvaus, kun tutkielma ja sen liite ovat valmiit.',
       courseworkLabel: 'Opintojen painopisteet',
     },
     skills: {

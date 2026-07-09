@@ -53,6 +53,11 @@ section[id] {
   transform: translateY(0);
 }
 
+/* Expand/collapse for CollapsibleRow, animated via the grid-template-rows trick */
+.collapse-transition {
+  transition: grid-template-rows 0.3s ease-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -61,6 +66,10 @@ section[id] {
   .fade-in-up {
     opacity: 1;
     transform: none;
+    transition: none;
+  }
+
+  .collapse-transition {
     transition: none;
   }
 }

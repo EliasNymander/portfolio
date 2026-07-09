@@ -1,5 +1,10 @@
 // Work experience, most recent first. `period.en`/`period.fi` differ only in
 // how "present" is expressed, so the timeline stays translated end to end.
+//
+// `periods` (Wärtsilä only) breaks the overall span into the actual
+// alternating full-time/part-time stretches, shown when the row is expanded.
+// `description` is the full write-up shown when the row is expanded;
+// `bullets` stay visible at all times as the quick-scan summary.
 
 export const experience = [
   {
@@ -7,17 +12,23 @@ export const experience = [
     role: { en: 'Delivery Coordinator', fi: 'Delivery Coordinator' },
     company: 'Wärtsilä Marine',
     period: { en: '06/2024 – Present', fi: '06/2024 – nyt' },
+    periods: [
+      { range: { en: '06/2024 – 09/2024', fi: '06/2024 – 09/2024' }, type: { en: 'Full-time', fi: 'Kokoaikainen' } },
+      { range: { en: '10/2024 – 04/2025', fi: '10/2024 – 04/2025' }, type: { en: 'Part-time', fi: 'Osa-aikainen' } },
+      { range: { en: '05/2025 – 09/2025', fi: '05/2025 – 09/2025' }, type: { en: 'Full-time', fi: 'Kokoaikainen' } },
+      { range: { en: '10/2025 – 04/2026', fi: '10/2025 – 04/2026' }, type: { en: 'Part-time', fi: 'Osa-aikainen' } },
+      { range: { en: '05/2026 – Present', fi: '05/2026 – nyt' }, type: { en: 'Full-time', fi: 'Kokoaikainen' } },
+    ],
     bullets: {
-      en: [
-        'Freight coordination using SAP and TMS',
-        'Full ownership of export documentation',
-        'Built UiPath RPA robots for the team',
-      ],
+      en: ['Freight coordination using SAP and TMS', 'Full ownership of export documentation'],
       fi: [
         'Rahtiliikenteen koordinointi SAP:lla ja TMS-järjestelmällä',
         'Vientidokumentaation kokonaisvastuu',
-        'UiPath RPA -robottien rakentaminen tiimille',
       ],
+    },
+    description: {
+      en: "Responsible for coordinating and ensuring timely delivery and transport for Wärtsilä spare parts shipments from Wärtsilä's centralized Distribution Center in Kampen, Netherlands. I am responsible for coordinating international spare part deliveries from a centralized distribution center, managing transportation bookings, handling export and invoice documentation, and ensuring delivery dates are met by conducting follow-ups on deliveries. I also participate in the development of robotic process automation (RPA) solutions within my department using UiPath. Maritime logistics, including booking of LCL and FCL sea freight shipments. Additionally booking of courier, air freight, and road freight shipments using TMS and SAP. I work daily in English and work with multiple stakeholders like sales and different logistics personnel. I work as a full-time employee during the summers in this role and as a part-time employee during my studies.",
+      fi: 'Vastaan Wärtsilän varaosalähetysten koordinoinnista ja niiden toimitusten sekä kuljetusten oikea-aikaisuudesta Wärtsilän keskitetystä jakelukeskuksesta Kampenista, Alankomaista. Vastaan kansainvälisten varaosatoimitusten koordinoinnista keskitetystä jakelukeskuksesta, kuljetusten varaamisesta, vienti- ja laskutusdokumentaation käsittelystä sekä toimituspäivien toteutumisen varmistamisesta seuraamalla toimituksia. Osallistun myös osastoni ohjelmistorobotiikan (RPA) ratkaisujen kehittämiseen UiPathin avulla. Työhön kuuluu merilogistiikkaa, mukaan lukien LCL- ja FCL-merirahtilähetysten varaaminen. Lisäksi varaan kuriiri-, lentorahti- ja tiekuljetuslähetyksiä TMS:n ja SAP:n avulla. Työskentelen päivittäin englanniksi ja teen yhteistyötä useiden sidosryhmien, kuten myynnin ja eri logistiikkahenkilöstön, kanssa. Toimin tässä roolissa kesäisin täysipäiväisenä työntekijänä ja opintojeni aikana osa-aikaisena.',
     },
   },
   {
@@ -37,6 +48,10 @@ export const experience = [
         'IT-tiimin avustaminen uusien kuljetuskoordinointijärjestelmien käyttöönotossa',
       ],
     },
+    description: {
+      en: 'Transport coordination of the Finnish DHL Freight’s full load transports and capital region partial goods. Assisting the IT department in the development of the new enterprise resource system. Cooperation with drivers, customer service and other internal departments as well as other transport companies in searching for shipments, keeping up with the schedule and planning future deliveries and pickups. Planning the daily schedules and routes of the drivers and ensuring continuous cooperation between the drivers. Responding to inquiries about the deliveries and pickups, investigating and dealing with complaints, reclamations and other possible issues.',
+      fi: 'DHL:n Suomen runkoliikenteen täysikuormien ja pääkaupunkiseudun kappaletavaran ajojärjestely. IT-osaston avustaminen uusien tuotannonohjaus järjestelmien kehityksessä. Yhteistyö kuskien, asiakaspalvelun ja muiden sisäisten osastojen sekä toisten kuljetusyritysten kanssa lähetysten etsimisessä, aikataulun pitämisessä sekä tulevien toimitusten ja suunnitelmien toteutuksessa. Kuskien päivittäisten aikataulujen ja reittien sopiminen sekä kuskien välisen yhteistyön varmistaminen. Ajojärjestelyyn tuleviin kyselyihin vastaaminen, reklamaatioiden ja muiden mahdollisten ongelmien selvittäminen ja hoitaminen.',
+    },
   },
   {
     id: 'dhl-customer-service-specialist',
@@ -54,6 +69,10 @@ export const experience = [
         'Uusien työntekijöiden perehdyttäminen',
         'Perehdytysoppaan kirjoittaminen',
       ],
+    },
+    description: {
+      en: 'Handling customer inquiries and responding to shipment tracking and price inquiries using the customer communication system and telephone as tools. Receiving and opening transport orders for export and import shipments in the system. DHL service guidance, marketing and sales of value-added services. Possible escalation of inquiries and orders to other work departments. Possible training of new employees. Checking information on transport orders and making sure dangerous substance documents and other documents are filled out correctly. General customer service by phone and email. Communication with different working groups, stakeholders and colleagues in connection with lost shipments and other problems.',
+      fi: 'Asiakaskyselyiden hoito ja lähetysten seuranta- ja hintakyselyihin vastaaminen käyttäen työkaluina kommunikointi järjestelmää ja puhelinta. Vienti ja tuonti lähetyksien kuljetustilausten vastaanotto ja avaaminen järjestelmään. DHL:n palveluiden opastus, markkinointi ja lisäarvopalveluiden myynti. Kyselyiden sekä tilausten mahdollinen eskalointi muille osastoille ja sidosryhmille. Uusien työntekijöiden mahdollinen koulutus. Kuljetustilausten tietojen tarkastaminen sekä vaarallisten aineiden ja muiden dokumenttien tarkastaminen. Yleinen asiakaspalvelu puhelimitse ja sähköpostilla. Kommunikointi eri työryhmien, sidosryhmien ja kollegoiden kanssa kadonneiden lähetysten sekä muiden ongelmien yhteydessä.',
     },
   },
   {

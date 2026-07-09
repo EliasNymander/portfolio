@@ -15,6 +15,12 @@ export default function Projects() {
       </FadeIn>
 
       <div className="mt-6 max-w-2xl">
+        {projects.length === 0 && (
+          <FadeIn>
+            <p className="text-sm text-slate-500 dark:text-slate-500">{t.projects.emptyMessage}</p>
+          </FadeIn>
+        )}
+
         {projects.map((project, index) => (
           <FadeIn key={project.id} delay={index * 75}>
             <a
