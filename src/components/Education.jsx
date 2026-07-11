@@ -142,6 +142,7 @@ export default function Education() {
             label={t.education.mscThesisLabel}
             title={t.education.mscThesisTitle}
             summary={t.education.mscThesisSummary}
+            abstractParagraphs={t.education.mscThesisAbstract}
             t={t}
           />
         </FadeIn>

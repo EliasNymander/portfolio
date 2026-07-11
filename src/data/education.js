@@ -10,16 +10,16 @@ export const education = [
     id: 'uva-msc',
     institution: 'University of Vaasa',
     degree: {
-      en: 'MSc Information Systems (Computing Sciences)',
-      fi: 'Filosofian maisteri, tietojärjestelmätiede (tietotekniikka)',
+      en: 'MSc Information Systems',
+      fi: 'Kauppatieteiden maisteri, tietojärjestelmätiede',
     },
-    period: { en: 'Graduating autumn 2026', fi: 'Valmistuu syksyllä 2026' },
+    period: { en: 'Graduating autumn 2026', fi: 'Valmistuminen syksyllä 2026' },
     highlights: {
       en: ['System Integrations', 'Systems Engineering', 'Machine Learning', 'Project Portfolio Management', 'Agile'],
       fi: ['Järjestelmäintegraatiot', 'Systeemitekniikka', 'Koneoppiminen', 'Projektisalkun hallinta', 'Ketterät menetelmät'],
     },
     link: {
-      en: 'https://www.uwasa.fi/en/education/masters-programmes/computing-sciences',
+      en: 'https://www.uwasa.fi/fi/koulutus/maisteriohjelmat/tietojenkasittelytieteet/tietojarjestelmatiede-ktm',
       fi: 'https://www.uwasa.fi/fi/koulutus/maisteriohjelmat/tietojenkasittelytieteet/tietojarjestelmatiede-ktm',
     },
     officialTitle: {

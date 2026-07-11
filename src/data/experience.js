@@ -92,5 +92,9 @@ export const experience = [
         'SEO- ja frontend-ongelmanratkaisu',
       ],
     },
+    description: {
+      en: 'I co-founded Boost Your Trade, a two-person startup building AI-assisted websites for small businesses and tradespeople (such as plumbing companies) in New Zealand. I led the technical side of the business: deploying client websites, resolving frontend build issues (npm, file structure, paths), and improving website SEO and performance tracking with Google Analytics. We shipped three client sites before winding the company down. Throughout, I used AI tools to help build and develop the sites, and the work sharpened my problem-solving and my ability to turn client needs into working technical solutions.',
+      fi: 'Perustin Boost Your Traden, kahden hengen startupin, joka rakensi tekoälyavusteisia verkkosivuja pienyrityksille ja käsityöläisyrittäjille (kuten putkiyhtiöille) Uudessa-Seelannissa. Vastasin yrityksen teknisestä puolesta: asiakkaiden verkkosivujen julkaisusta, frontend-käännösvirheiden (npm, tiedostorakenne, polut) ratkaisemisesta sekä verkkosivujen hakukoneoptimoinnista ja suorituskyvyn seurannasta Google Analyticsin avulla. Julkaisimme kolme asiakassivustoa ennen toiminnan lopettamista. Hyödynsin työssä tekoälytyökaluja sivustojen rakentamisessa ja kehittämisessä, ja työ kehitti ongelmanratkaisutaitojani sekä kykyäni muuttaa asiakkaiden tarpeet toimiviksi teknisiksi ratkaisuiksi.',
+    },
   },
 ]
