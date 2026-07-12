@@ -24,7 +24,7 @@ export const skills = [
   {
     id: 'web',
     category: { en: 'Web', fi: 'Web' },
-    items: ['JavaScript', 'React (basics)', 'SEO'],
+    items: ['JavaScript (basics)', 'React (basics)', 'SEO'],
   },
   {
     id: 'languages',
