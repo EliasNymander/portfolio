@@ -76,6 +76,26 @@ export const experience = [
     },
   },
   {
+    id: 'transval-extra-warehouse-worker',
+    role: { en: 'Warehouse Worker', fi: 'Varastotyöntekijä' },
+    company: 'Transval Extra Oy',
+    period: { en: '03/2021 – 08/2021', fi: '03/2021 – 08/2021' },
+    bullets: {
+      en: [
+        'Sorting incoming and outgoing packages',
+        'Assisted forklift and truck drivers, and the occupational safety officer',
+      ],
+      fi: [
+        'Tulevien pakettien syöttäminen sekä lähtevien pakettien lajittelu',
+        'Trukki- ja rekkakuskien sekä työturvallisuusvastaavan avustaminen',
+      ],
+    },
+    description: {
+      en: "Sorting incoming and outgoing packages. General cleaning in the logistics center, helping forklift and truck drivers in filling trailers and other possible work tasks, as well as assisting the occupational safety officer. Working in the biggest logistical center in Finland, Posti's logistical center in Vantaa.",
+      fi: 'Tulevien pakettien syöttäminen sekä lähtevien pakettien lajittelu. Yleinen siivoaminen logistiikkakeskuksessa, trukki- ja rekkakuskien auttaminen trailereiden täytössä sekä muissa mahdollisissa työtehtävissä, sekä työturvallisuus vastaavan avustaminen. Työskentely Suomen suurimmassa logistiikkakeskuksessa, Postin logistiikkakeskuksessa Vantaalla.',
+    },
+  },
+  {
     id: 'boost-your-trade',
     role: { en: 'Co-Founder & Technical Lead', fi: 'Co-Founder & Technical Lead' },
     company: 'Boost Your Trade',
